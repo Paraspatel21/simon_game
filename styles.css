@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  background-color: #08d9d6;
+}
+
+#welcome-title{
+  font-family: 'MuseoModerno', cursive;
+  font-size: 5rem;
+  margin:  2%;
+  color: #eaeaea;
+}
+
+#level-title{
+  font-family: 'MuseoModerno', cursive;
+  font-size: 4rem;
+  margin:  2%;
+  color: #eaeaea;
+}
+
+#btn-click{
+  background-color: #08d9d6;
+  color: #eaeaea;
+  font-size: 2rem;
+  border: 2px solid black;
+  border-radius: 20%;
+}
+#btn-click:hover{
+  color: #252a34;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.link{
+  font-size: 2rem;
+  color: #eaeaea;
+}
+
+.link:hover{
+  color: #252a34;
+}
+
+.footer{
+  font-family: 'MuseoModerno', cursive;
+  margin: 4%;
+  color: #eaeaea;
+}
+
+.footer-icon{
+  font-size: 2rem;
+  padding: 1%;
+}
+
+.footer-icon:hover{
+  color: #ff2e63;
+}
